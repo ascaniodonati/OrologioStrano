@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+    background-color: #3e4444;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    row-gap: 100px;
+}
+
+#clock {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#clock span {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    background-clip: text;
+}
+
+#clock .light {
+    color: yellow;
+    animation: animate 3s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%, 100% {
+        color: black;
+    }
+    8%, 92% {
+        color: yellow;
+    }
+}
