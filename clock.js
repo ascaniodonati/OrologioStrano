@@ -4,7 +4,7 @@ setInterval(() => {
     updateClock(d);
 }, 1000);
 
-//Aggiorniamo l'orologio
+//Aggiorniamo l'orologioo
 function updateClock(date) {
     let hours = date.getHours();
     let twelveHour = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
