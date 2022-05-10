@@ -1,9 +1,8 @@
 setInterval(() => {
     // let d = new Date();
-    let d = new Date(2022,05,02,00,50,23,45);
+    let d = new Date();
     updateClock(d);
 }, 1000);
-
 
 //Aggiorniamo l'orologio
 function updateClock(date) {
